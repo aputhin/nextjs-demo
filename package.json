@@ -1,17 +1,17 @@
 {
   "name": "nextjs-demo",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "0.0.1",
+  "description": "Fooling around with the next.js framework",
+  "main": "server.js",
   "scripts": {
     "dev": "node server.js",
     "build": "next build",
     "export": "next export",
     "start": "cross-env NODE_ENV=production node server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: test is not a function\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["react", "nextjs", "proof-of-concept"],
+  "author": "aputhin",
   "license": "ISC",
   "dependencies": {
     "cross-env": "^5.2.0",
